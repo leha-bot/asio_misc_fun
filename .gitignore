@@ -1,0 +1,4 @@
+build/
+
+# Vim temp swapbuffers
+*.sw* 
