@@ -9,7 +9,7 @@ target_link_libraries(asio-chatik ${Boost_LIBRARIES})
 
 add_executable(asio-tutors tutor-timer.cpp)
 target_compile_features(asio-tutors PUBLIC cxx_std_20)
-target_link_libraries(asio-chatik ${Boost_LIBRARIES})
+target_link_libraries(asio-tutors ${Boost_LIBRARIES})
 
 enable_testing()
 find_package(GTest REQUIRED)
